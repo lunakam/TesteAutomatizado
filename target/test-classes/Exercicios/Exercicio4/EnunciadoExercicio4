@@ -1,0 +1,14 @@
+Agora o modo correto de usar o cucumber no seu projeto será explicado :D
+
+
+
+1. Acesse o site https://the-internet.herokuapp.com/login e crie seu BDD baseado nas funcionalidades desta tela.
+
+2. Crie o arquivo exericicio4BDD.feature na pasta src > test > resources > features
+
+3. Use o terminal ou o outra ferramenta para gerar os seus steps em java.(Recomendo o uso do TidyGherkin)
+
+4. Crie o arquivo Exercicio4Steps na pasta src > test > java > stepsDefinition
+
+5. Cole os seus steps em java nesta classe.
+

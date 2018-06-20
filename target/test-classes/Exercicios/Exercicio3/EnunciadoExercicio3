@@ -1,0 +1,11 @@
+Neste exercício usaremos um pouco da teoria do que aprendemos no Exercício2 para aprofundar o tema.
+
+
+Veja o arquivo login.feature, nele foi feito o BDD de uma tela de login. a partir desse BDD foram geradas duas classes: LoginStepsComSelenium e Login Steps.
+
+A classe LoginStepsComSelenium foi criada para facilitar o entendimento de como vai funcionar o cucumber com webdriver. Não é o modo correto de fazer!
+A classe LoginSteps é o modo correto porém é mais complicado de fazer.
+
+1. Pratique o uso do SeleniumWebdriver termindo de escrever os testes de LoginStepsComSelenium
+
+

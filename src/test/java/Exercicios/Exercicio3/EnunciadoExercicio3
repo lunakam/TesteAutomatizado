@@ -1,0 +1,20 @@
+Neste exercício usaremos um pouco da teoria do que aprendemos no Exercício2 para aprofundar o tema.
+
+
+Veja o arquivo login.feature, nele foi feito o BDD de uma tela de login. a partir desse BDD foram geradas três classes: LoginStepsComSelenium, LoginSteps e LoginPage.
+
+A classe LoginStepsComSelenium foi criada para facilitar o entendimento de como vai funcionar o cucumber com webdriver. Não é o modo correto de fazer!
+
+A classe LoginSteps é o modo correto porém é mais complicado de fazer.
+
+A classe LoginPage é onde os métodos da LoginSteps ficarão
+
+Este projeto contém 2 camadas, a camada de Steps e Page. É indicada para projetos simples e pequenos, quanto mais complexo é o seu projeto, mais camadas terá.
+
+
+1. Pratique o uso do SeleniumWebdriver. Abra o arquivo LoginStepsComSelenium e termine de escrever os testes.
+   Use os Scenários comentados no arquivo login.feature para escrever seus testes.
+
+
+Para rodar seus testes acesse src > test > java > stepsDefinition > Run CucumberTest e altere o seu feature
+

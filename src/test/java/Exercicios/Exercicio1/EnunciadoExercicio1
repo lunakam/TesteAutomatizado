@@ -1,0 +1,16 @@
+Crie uma pasta chamada Exercicio1SeuNome dentro da pasta Exercício1
+
+Dentro desta pasta você irá criar 3 classes Java
+1ª Bola
+2º FuncionalidadesBola
+3º TesteBola
+
+1. Na classe Bola você irá definir quais são os atributos da bola (ex: se a bola tem cor, tamanho, material, preço, estampa). Depois você irá criar os métodos get e set dos atributos
+da sua Bola, se atende a variar os tipos de variavel, use String, Integer, Bigdecimal, Boolean e List
+ler (https://www.devmedia.com.br/get-e-set-metodos-acessores-em-java/29241) p/entender o get e set
+
+2. Na classe FuncionalidadesBola, você irá definir a manipulação dos atributos da Bola e fazer as classes de testes.
+
+3. Na classe Testeproduto, vocẽ irá passar a entrada de dados e chamar os testes definidos na classe FuncionalidadesBola.
+
+
