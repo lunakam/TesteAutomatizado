@@ -41,10 +41,8 @@ public class LoginStepsComSelenium {
 
         // @When("^I click 'Continue'$")
         driver.findElement(By.className("radius")).click();
-        //*[@id="login"]/button
 
         //@Then("^I should be redirect to the secure area$")
-
         String secureArea = driver.findElement(By.className("example")).getAttribute("innerText");
 
         Assert.assertEquals("Secure Area", secureArea.split("\n")[0]);

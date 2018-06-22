@@ -14,6 +14,7 @@ import java.sql.Driver;
 public class LoginPage {
 
 
+
     public boolean fillUsername(String username) {
 
         LoginSteps.driver.findElement(By.id("username")).clear();
@@ -29,12 +30,17 @@ public class LoginPage {
     }
 
     public boolean clickLoginButton(){
-
-        //clickLoginButton();
+        //@And("^I click 'Login'$")
         LoginSteps.driver.findElement(By.className("radius")).click();
         return true;
     }
 
+    public boolean openSite(String url){
+
+        LoginSteps.driver.get(url);
+
+        return true;
+    }
 
     //boolean dos Assert
     public boolean secureAreaMessage(){
@@ -44,4 +50,5 @@ public class LoginPage {
             return  false;
         }
     }
+
 }

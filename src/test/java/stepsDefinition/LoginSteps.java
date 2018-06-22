@@ -23,13 +23,12 @@ public class LoginSteps {
     private LoginPage loginPage;
     public static String username = "tomsmith";
     public static String password = "SuperSecretPassword!";
+    public static String url = "https://the-internet.herokuapp.com/login";
 
     @Before
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "/home/luna/Documents/ProjetoAutomacaoJava/chromedriver");
-        driver = new ChromeDriver();
         loginPage = new LoginPage();
-        driver.get("https://the-internet.herokuapp.com/login");
+        loginPage.openSite(this.url);
     }
 
     @After
@@ -39,7 +38,6 @@ public class LoginSteps {
 
     @Given("^I have accessed the site$")
     public void i_have_accessed_the_site() throws Throwable {
-        Assert.assertEquals("https://the-internet.herokuapp.com/login", driver.getCurrentUrl());
     }
 
     @When("^I type a valid email in email field$")
@@ -55,7 +53,6 @@ public class LoginSteps {
     @And("^I click 'Login'$")
     public void i_click_login() throws Throwable {
         loginPage.clickLoginButton();
-
     }
 
     @Then("^I should be redirect to the secure area$")
