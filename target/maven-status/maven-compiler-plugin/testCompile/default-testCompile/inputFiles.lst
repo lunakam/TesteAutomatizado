@@ -1,3 +1,9 @@
-/home/luna/Documents/ProjetoAutomacaoJava/lunaticeu-TesteAutomatizado/src/test/java/StepsDefinition/loginSteps.java
-/home/luna/Documents/ProjetoAutomacaoJava/lunaticeu-TesteAutomatizado/src/test/java/StepsDefinition/RunCucumberTest.java
-/home/luna/Documents/ProjetoAutomacaoJava/lunaticeu-TesteAutomatizado/src/test/java/StepsDefinition/is_it_friday_yet_steps.java
+/home/luna/Documents/ProjetoAutomacaoJava/lunaticeu-TesteAutomatizado/src/test/java/pageObjects/LoginPage.java
+/home/luna/Documents/ProjetoAutomacaoJava/lunaticeu-TesteAutomatizado/src/test/java/stepsDefinition/ExemploComSelenium.java
+/home/luna/Documents/ProjetoAutomacaoJava/lunaticeu-TesteAutomatizado/src/test/java/Exercicios/Exercicio1/Produto.java
+/home/luna/Documents/ProjetoAutomacaoJava/lunaticeu-TesteAutomatizado/src/test/java/Driver.java
+/home/luna/Documents/ProjetoAutomacaoJava/lunaticeu-TesteAutomatizado/src/test/java/Exercicios/Exercicio1/Funcionalidades.java
+/home/luna/Documents/ProjetoAutomacaoJava/lunaticeu-TesteAutomatizado/src/test/java/Exercicios/Exercicio1/TesteDoProduto.java
+/home/luna/Documents/ProjetoAutomacaoJava/lunaticeu-TesteAutomatizado/src/test/java/stepsDefinition/LoginSteps.java
+/home/luna/Documents/ProjetoAutomacaoJava/lunaticeu-TesteAutomatizado/src/test/java/LoginStepsComSelenium.java
+/home/luna/Documents/ProjetoAutomacaoJava/lunaticeu-TesteAutomatizado/src/test/java/RunCucumberTest.java
