@@ -1,6 +1,5 @@
 Feature: Login user
 
-  @lunaTest
   Scenario: Login
     Given I have accessed the site
     When I type a valid email in email field

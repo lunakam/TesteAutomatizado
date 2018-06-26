@@ -1,0 +1,10 @@
+Driver.class
+pageObjects/LoginPage.class
+RunCucumberTest.class
+stepsDefinition/ExemploComSelenium$1.class
+Exercicios/Exercicio1/Produto.class
+Exercicios/Exercicio1/TesteDoProduto.class
+LoginStepsComSelenium.class
+stepsDefinition/ExemploComSelenium.class
+stepsDefinition/LoginSteps.class
+Exercicios/Exercicio1/Funcionalidades.class
