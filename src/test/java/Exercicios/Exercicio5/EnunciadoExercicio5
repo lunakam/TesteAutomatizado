@@ -1,0 +1,44 @@
+Já trabalhou com listas? Esse exercicio será realizado para criar usuários automaticamente por meio de uma lista de
+usuários presentes em uma tabela em excel.
+
+Usaremos o site https://automacaocombatista.herokuapp.com/users/new para fazer esse exercícío
+
+1. Abra o seu excel e preencha as informações com base no exemplo abaixo:
+
+Nome, sobrenome, email, telefone
+ana, luiza, ana.luiza@gmail.com, 11912345678
+beatriz, moureira, bia_moura@hotmail.com, 1190987654
+camila, nataniel, camilinha@gmail.com, 11934565433
+danielle, octavia, dani123@gmail.com, 1155654332
+emanuela, pereira, manu_pera@hotmail.com, 1185678899
+
+2. Salve o seu arquivo no formato .csv e coloque o nome de usuarios
+
+3. Crie o arquivo exericicio5BDD.feature na pasta src > test > resources > features
+
+4. Use o terminal ou o outra ferramenta para gerar os seus steps em java.(Recomendo o uso do TidyGherkin)
+
+5. Crie o arquivo Exercicio5Steps na pasta src > test > java > stepsDefinition
+
+6. Cole os seus steps em java nesta classe.
+
+7. Você terá que usar o método:
+
+public void popularUsuarios{
+        String filePath = "caminhoDoSeuArquivo/usuarios.csv";
+        System.out.println(filePath);
+        try (Stream<String> stream = Files.lines(Paths.get(filePath), StandardCharsets.UTF_8)) {
+
+            List<String> lines = stream.collect(Collectors.toList());
+
+
+            for (String line : lines) {
+                System.out.println(line);
+
+
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
