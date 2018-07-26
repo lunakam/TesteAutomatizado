@@ -9,7 +9,7 @@ A classe LoginSteps é o modo correto porém é mais complicado de fazer.
 
 A classe LoginPage é onde os métodos da LoginSteps ficarão
 
-Este projeto contém 2 camadas, a camada de Steps e Page. É indicada para projetos simples e pequenos, quanto mais complexo é o seu projeto, mais camadas terá.
+Este projeto contém 3 camadas, a camada de Steps e Page. É indicada para projetos simples e pequenos, quanto mais complexo é o seu projeto, mais camadas terá.
 
 
 1. Pratique o uso do SeleniumWebdriver. Abra o arquivo LoginStepsComSelenium e termine de escrever os testes.
