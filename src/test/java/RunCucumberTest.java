@@ -4,7 +4,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = {"pretty"}
-        , features = "/home/luna/Documents/ProjetoAutomacaoJava/lunaticeu-TesteAutomatizado/src/test/resources/features"
+        , features = "/home/luna/Documents/AutomacaoJava/TesteAutomatizado/src/test/resources/features"
         , glue = {"stepsDefinition"})
 public class RunCucumberTest {
 }

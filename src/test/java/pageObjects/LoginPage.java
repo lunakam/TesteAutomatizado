@@ -10,40 +10,36 @@ import org.openqa.selenium.By;
 public class LoginPage {
 
 
-    public boolean fillUsername(String username) {
-
+    public void fillUsername(String username) {
         MyDriver.driver.findElement(By.id("username")).clear();
         MyDriver.driver.findElement(By.id("username")).sendKeys(username);
-        return true;
+
     }
 
-    public boolean fillPassword(String password) {
+    public void fillPassword(String password) {
 
-        //@When("^I type a valid password in password field$")
         MyDriver.driver.findElement(By.id("password")).clear();
         MyDriver.driver.findElement(By.id("password")).sendKeys(password);
-        return true;
+
     }
 
-    public boolean clickLoginButton() {
-        //@And("^I click 'Login'$")
+    public void clickLoginButton() {
         MyDriver.driver.findElement(By.className("radius")).click();
-        return true;
+
     }
 
-    public boolean openSite(String url) {
+    public void openSite(String url) {
 
         MyDriver.driver.get(url);
-        return true;
+
     }
 
-    public boolean closeSite() {
-
+    public void closeSite() {
         MyDriver.driver.close();
-        return true;
+
     }
 
-    //boolean dos Assert
+
     public boolean secureAreaMessage() {
         if ("Secure Area" == MyDriver.driver.findElement(By.className("example")).getAttribute("innerText").split("\n")[0] && "Welcome to the Secure Area. When you are done click logout below." == MyDriver.driver.findElement(By.className("example")).getAttribute("innerText").split("\n")[1])
             return true;

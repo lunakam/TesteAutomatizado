@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e8542b77-9a98-4569-8e3a-01082f41e2b3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RunCucumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/drivers/MyDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/drivers/MyDriver.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +26,7 @@
         </entry>
       </file>
       <file leaf-file-name="EnunciadoExercicio4" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Exercicios/Exercicio4/EnunciadoExercicio4">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Exercicios/EnunciadoExercicio4">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" selection-start-line="8" selection-end-line="12" selection-end-column="43" />
@@ -34,19 +35,10 @@
         </entry>
       </file>
       <file leaf-file-name="EnunciadoExercicio5" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Exercicios/Exercicio5/EnunciadoExercicio5">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Exercicios/EnunciadoExercicio5">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="128" selection-start-line="8" selection-start-column="128" selection-end-line="8" selection-end-column="128" />
+            <state relative-caret-position="510">
+              <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -56,6 +48,24 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="521">
               <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RunCucumberTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RunCucumberTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="102" selection-start-line="6" selection-start-column="102" selection-end-line="6" selection-end-column="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyDriver.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/drivers/MyDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="139" selection-start-line="10" selection-start-column="139" selection-end-line="10" selection-end-column="139" />
             </state>
           </provider>
         </entry>
@@ -101,10 +111,13 @@
         <option value="$PROJECT_DIR$/src/test/java/Exercicios/Exercicio5/EnunciadoExercicio5" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/pageObjects/luna.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RunCucumberTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/drivers/MyDriver.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1920" />
     <option name="y" value="-2" />
     <option name="width" value="1920" />
     <option name="height" value="1082" />
@@ -115,8 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,7 +159,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercicios" type="462c0819:PsiDirectoryNode" />
+              <item name="drivers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hellocucumber" type="b2602c69:ProjectViewProjectNode" />
@@ -157,16 +168,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Exercicios" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercicio4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hellocucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TesteAutomatizado" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercicios" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercicio5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hellocucumber" type="b2602c69:ProjectViewProjectNode" />
@@ -176,10 +177,19 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pageObjects" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hellocucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TesteAutomatizado" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -190,6 +200,9 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/Exercicios" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -204,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.RunCucumberTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -220,6 +233,23 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="stepsDefinition" />
       <option name="MAIN_CLASS_NAME" value="stepsDefinition.LoginSteps" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="RunCucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hellocucumber" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RunCucumberTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -269,8 +299,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.LoginSteps" />
+      <item itemvalue="JUnit.RunCucumberTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RunCucumberTest" />
         <item itemvalue="JUnit.LoginSteps" />
       </list>
     </recent_temporary>
@@ -297,35 +332,35 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-2" width="1920" height="1082" extended-state="6" />
+    <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.24236038" />
       <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.55953634" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3645943" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2614728" />
-      <window_info active="true" anchor="bottom" id="Find" order="4" visible="true" weight="0.32982087" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.26467448" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info id="UI Designer" order="1" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
+      <window_info active="true" anchor="bottom" id="Find" order="4" visible="true" weight="0.32982087" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="4" />
@@ -333,12 +368,12 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Run" order="5" />
       <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24980047" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -348,7 +383,7 @@
       <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.14590164" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -370,7 +405,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Exercicios/Exercicio4/EnunciadoExercicio4">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Exercicios/EnunciadoExercicio4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Exercicios/EnunciadoExercicio5">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="128" selection-start-line="8" selection-start-column="128" selection-end-line="8" selection-end-column="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/LoginSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Exercicios/EnunciadoExercicio4">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" selection-start-line="8" selection-end-line="12" selection-end-column="43" />
@@ -391,7 +468,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Exercicios/Exercicio5/EnunciadoExercicio5">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Exercicios/EnunciadoExercicio5">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
@@ -516,27 +593,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Exercicios/Exercicio3/EnunciadoExercicio3">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Exercicios/EnunciadoExercicio3">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Exercicios/Exercicio4/EnunciadoExercicio4">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Exercicios/EnunciadoExercicio4">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" selection-start-line="8" selection-end-line="12" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Exercicios/Exercicio5/EnunciadoExercicio5">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/luna.java" />
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="120">
+          <caret line="8" column="128" selection-start-line="8" selection-start-column="128" selection-end-line="8" selection-end-column="128" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/luna.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Exercicios/EnunciadoExercicio5">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="510">
+          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -547,10 +625,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/test/java/RunCucumberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="102" selection-start-line="6" selection-start-column="102" selection-end-line="6" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/drivers/MyDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="128" selection-start-line="8" selection-start-column="128" selection-end-line="8" selection-end-column="128" />
+          <caret line="10" column="139" selection-start-line="10" selection-start-column="139" selection-end-line="10" selection-end-column="139" />
         </state>
       </provider>
     </entry>
