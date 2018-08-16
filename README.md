@@ -15,7 +15,11 @@ git clone https://github.com/lunakam/TesteAutomatizado.git
 
 2. Dependendo do seu SO, você terá que alterar o Chrome Driver. Acesse http://chromedriver.chromium.org/downloads e baixe a versão do seu SO
 
-3. Feito isso, você terá que substituir os 2 arquivos chrome driver do projeto pelo que você acabou de baixar.
+3. Feito isso, você terá que substituir 2 arquivos:
+a) MyDriver.java : altere seu System.setProperty
+b) RunCucumberTest.java : altere o caminho da sua feature
 
 
 <h4> Pronto! Agora é só acessar os exercícios e Boa Sorte!!!</h4>
+
+Os exercícios estão em "TesteAutomatizado/src/test/java/Exercicios"
