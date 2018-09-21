@@ -37,27 +37,27 @@ public class LoginSteps {
     }
 
     @Given("^I have accessed the site$")
-    public void i_have_accessed_the_site() throws Throwable {
+    public void i_have_accessed_the_site() {
         loginPage.secureAreaMessage();
     }
 
     @When("^I type a valid email in email field$")
-    public void i_type_a_valid_email_in_email_field() throws Throwable {
+    public void i_type_a_valid_email_in_email_field() {
         loginPage.fillUsername(this.username);
     }
 
     @And("^I type a valid password in password field$")
-    public void i_type_a_valid_password_in_password_field() throws Throwable {
+    public void i_type_a_valid_password_in_password_field() {
         loginPage.fillPassword(this.password);
     }
 
     @And("^I click 'Login'$")
-    public void i_click_login() throws Throwable {
+    public void i_click_login() {
         loginPage.clickLoginButton();
     }
 
     @Then("^I should be redirect to the secure area$")
-    public void i_should_be_redirect_to_the_secure_area() throws Throwable {
+    public void i_should_be_redirect_to_the_secure_area() {
         loginPage.secureAreaMessage();
     }
 
